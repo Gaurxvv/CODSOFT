@@ -307,3 +307,26 @@ footer {
         font-size: 1rem;
     }
 }
+
+* {
+    scrollbar-width: thin; 
+    scrollbar-color: rgb(65, 61, 61) transparent;
+}
+
+
+*::-webkit-scrollbar {
+    width: 12px; 
+    height: 12px; 
+}
+
+*::-webkit-scrollbar-track {
+    background: black; 
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 70px;
+    border: 2px solid transparent;
+    background-clip: content-box; 
+}
+
